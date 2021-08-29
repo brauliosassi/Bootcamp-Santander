@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14a7f104-1753-424e-bdb3-e48325dcb6a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/digital-innovation-one-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/src/main/java/br/com/globalabs/exemplomaven/ExemploMavenApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemplo-maven/src/test/java/br/com/globalabs/exemplomaven/ExemploMavenApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/bloco-condicionais.por" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/calculoMedia.por" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/desvios-condicionais.por" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/hello.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/lacos-repeticao.por" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/matriz.por" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logica_de_programacao/vetores.por" beforeDir="false" />
-    </list>
+    <list default="true" id="14a7f104-1753-424e-bdb3-e48325dcb6a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,14 +181,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/debug-de-codigo/src/main/java/one/innovation/digital/Programa.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="pessoa.nome" />
+        <watch expression="pessoa.nome" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
