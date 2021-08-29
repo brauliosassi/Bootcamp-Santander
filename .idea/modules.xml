@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/caracteristicas-da-linguagem-java/caracteristicas-da-linguagem-java.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/caracteristicas-da-linguagem-java/caracteristicas-da-linguagem-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/caracteristicas-da-linguagem-java-2/caracteristicas-da-linguagem-java-2.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/caracteristicas-da-linguagem-java-2/caracteristicas-da-linguagem-java-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/debug-de-codigo/debug-de-codigo.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/debug-de-codigo/debug-de-codigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/cities-api-full-ci-cd/src/main/main.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/cities-api-full-ci-cd/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/cities-api/src/main/main1.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/cities-api/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/cities-api-nearby-service/src/main/main2.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/cities-api-nearby-service/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/cities-api/src/test/test.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/cities-api/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/cities-api-full-ci-cd/src/test/test1.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/cities-api-full-ci-cd/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-innovation-one-master/cities-api-nearby-service/src/test/test2.iml" filepath="$PROJECT_DIR$/digital-innovation-one-master/cities-api-nearby-service/src/test/test2.iml" />
+    </modules>
+  </component>
+</project>
