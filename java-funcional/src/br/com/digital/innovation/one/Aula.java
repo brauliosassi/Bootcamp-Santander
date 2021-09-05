@@ -12,8 +12,8 @@ public class Aula {
         System.out.println("resultado é :: "+resultado); */
 
        //Modo funcional
-        UnaryOperator<Integer> calculaValorVezesTrinta = valor -> valor * 3;
+         /*UnaryOperator<Integer> calculaValorVezesTrinta = valor -> valor * 3;
         int valor = 10;
-        System.out.println("O resultado é :: "+calculaValorVezesTrinta.apply(  10));
+        System.out.println("O resultado é :: "+calculaValorVezesTrinta.apply(  10)); */
     }
 }
