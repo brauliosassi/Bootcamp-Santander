@@ -5,50 +5,89 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-
 public class ExempleList {
+
     public static void main(String[] args) {
+
         List<String> nomes = new ArrayList<>();
 
-        nomes.add("Braulio");
+        nomes.add("Carlos");
         nomes.add("Pedro");
-        nomes.add("Aabrão");
-        nomes.add("João");
+        nomes.add("Juliana");
+        nomes.add("Anderson");
         nomes.add("Maria");
-        nomes.add("Tito");
+        nomes.add("João");
 
         System.out.println(nomes);
 
+        nomes.set(2, "Larissa");
 
-        nomes.set(2, "troca Nome");
         System.out.println(nomes);
-
-        nomes.remove(5);
 
         Collections.sort(nomes);
+
+        nomes.set(2, "Wesley");
+
         System.out.println(nomes);
 
+        nomes.remove(4);
+
+        System.out.println(nomes);
+
+        nomes.remove("Wesley");
+
+        System.out.println(nomes);
+
+        String nome = nomes.get(3);
+
+        System.out.println(nome);
+
+        int posicao = nomes.indexOf("Wesley");
+
+        System.out.println(posicao);
+
         int tamanho = nomes.size();
+
         System.out.println(tamanho);
 
-        boolean verificaNome = nomes.contains("Fernando");
-        System.out.println(verificaNome);
+        nomes.remove("Larissa");
 
-        boolean listaVazia = nomes.isEmpty();
-        System.out.println(listaVazia);
+        tamanho = nomes.size();
 
-        int posicao = nomes.indexOf("Braulio");
-        System.out.println( posicao);
+        System.out.println(tamanho);
 
-        for (String nomeDoItem: nomes){
-            System.out.println(nomeDoItem);
+        boolean temAnderson = nomes.contains("Anderson");
+
+        System.out.println(temAnderson);
+
+        boolean temFernando = nomes.contains("Fernando");
+
+        System.out.println(temFernando);
+
+        boolean listaEstaVazia = nomes.isEmpty();
+
+        System.out.println(listaEstaVazia);
+
+        for (String nomeDoItem: nomes) {
+
+            System.out.println("-->" + nomeDoItem);
+
         }
 
         Iterator<String> iterator = nomes.iterator();
+
         while (iterator.hasNext()) {
-            System.out.println("---> " +iterator.next());
+
+            System.out.println("---->" + iterator.next());
 
         }
 
+        nomes.clear();
+
+        listaEstaVazia = nomes.isEmpty();
+
+        System.out.println(listaEstaVazia);
+
     }
+
 }
