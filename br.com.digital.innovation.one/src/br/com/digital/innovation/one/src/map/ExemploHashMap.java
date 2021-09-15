@@ -4,70 +4,74 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ExemploHashMap {
+
     public static void main(String[] args) {
 
-        Map<String, Integer> campeoesMundiais = new HashMap<>();
+        Map<String, Integer> campeoesMundialFifa = new HashMap<>();
 
-        //Adiciona os campeões mundiais FIFA no mapa e a qtde de títulos
-        campeoesMundiais.put("Brasil", 5);
-        campeoesMundiais.put("Alemanha", 4);
-        campeoesMundiais.put("Itália", 4);
-        campeoesMundiais.put("Uruguai", 2);
-        campeoesMundiais.put("Argentina", 2);
-        campeoesMundiais.put("França", 2);
-        campeoesMundiais.put("Inglaterra", 1);
-        campeoesMundiais.put("Espanha",1);
+        // Adiciona os campeões mundias fifa no mapa
+        campeoesMundialFifa.put("Brasil", 5);
+        campeoesMundialFifa.put("Alemanha", 4);
+        campeoesMundialFifa.put("Itália", 4);
+        campeoesMundialFifa.put("Uruguai", 2);
+        campeoesMundialFifa.put("Argentina", 2);
+        campeoesMundialFifa.put("França", 2);
+        campeoesMundialFifa.put("Inglaterra", 1);
+        campeoesMundialFifa.put("Espanha", 1);
 
-        System.out.println(campeoesMundiais);
+        System.out.println(campeoesMundialFifa);
 
-        //Atualiza o valor para a chave Brasil
-        campeoesMundiais.put("Brasil", 6);
-        System.out.println(campeoesMundiais);
+        // Atualiza o valor para a chave Brasil
 
-        //Retorna Argentina
-        System.out.println(campeoesMundiais.get("Argentina"));
+        campeoesMundialFifa.put("Brasil", 6);
 
-        //Retorna se existe ou não um campeão França
-        System.out.println(campeoesMundiais.containsKey("França"));
+        System.out.println(campeoesMundialFifa);
 
-        //Remove o campeão França
-        campeoesMundiais.remove("França");
-        System.out.println(campeoesMundiais);
+        // Retorna a Argentina
+        System.out.println(campeoesMundialFifa.get("Argentina"));
 
-        //Retorna se existe ou não Campeão França
-        System.out.println(campeoesMundiais.containsKey("França"));
+        // Retorna se existe ou não um campeão França
+        System.out.println(campeoesMundialFifa.containsKey("França"));
 
-        //Retorna se existe um hexacampeão
-        System.out.println(campeoesMundiais.containsKey(6));
+        // Remove o campeão França
+        campeoesMundialFifa.remove("França");
 
-        //Retorna o tamanho do mapa
-        System.out.println(campeoesMundiais.size());
+        // Retorna se existe ou não um campeão França
+        System.out.println(campeoesMundialFifa.containsKey("França"));
 
-        System.out.println(campeoesMundiais);
+        // Retorna se existe ou não alguma seleção hexa campeã
+        System.out.println(campeoesMundialFifa.containsValue(6));
 
-        //Navega nos registros
-        for (Map.Entry<String, Integer> entry : campeoesMundiais.entrySet()){
-            System.out.println(entry.getKey()+ "--" +entry.getValue());
+        // Retorna o tamanho do mapa
+        System.out.println(campeoesMundialFifa.size());
+
+        System.out.println(campeoesMundialFifa);
+
+        // Navega nos registros do mapa
+        for (Map.Entry<String, Integer> entry : campeoesMundialFifa.entrySet()) {
+            System.out.println(entry.getKey() + " -- " + entry.getValue());
         }
 
-        for (String key : campeoesMundiais.keySet()) {
-            System.out.println(key + "--" +campeoesMundiais.get(key));
+        // Navega nos registros do mapa
+        for (String key : campeoesMundialFifa.keySet()) {
+            System.out.println(key + " -- " + campeoesMundialFifa.get(key));
         }
-        System.out.println(campeoesMundiais);
 
-        //Verifica se tem um campeão EUA
-        System.out.println(campeoesMundiais.containsKey("Estados Unidos"));
+        System.out.println(campeoesMundialFifa);
 
-        //Verifica se tem valor 5
-        System.out.println(campeoesMundiais.containsValue(5));
+        // Verifica se o mapa contem a chave Estados Unidos
+        System.out.println(campeoesMundialFifa.containsKey("Estados Unidos"));
 
-        //Verifeca o tamanho e depois limpa
-        System.out.println(campeoesMundiais.size());
-        campeoesMundiais.clear();
-        System.out.println(campeoesMundiais.size());
+        // Verifica se o mapa contem o valor 5
+        System.out.println(campeoesMundialFifa.containsValue(5));
 
+        // Verifica o tamanho antes e depois de limpar o mapa
+        System.out.println(campeoesMundialFifa.size());
 
+        campeoesMundialFifa.clear();
 
+        System.out.println(campeoesMundialFifa.size());
 
     }
+
 }
